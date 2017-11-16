@@ -1,0 +1,36 @@
+{
+  "name": "integration-example",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Example integration for Clarity Hub",
+  "keywords": ["clarity hub", "example"],
+  "homepage": "https://clarityhub.io",
+  "bugs": {
+    "url": "https://github.com/clarityhub/node-clarity-hub/issues",
+    "email": "support@clarityhub.io"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Clarity Hub, Inc",
+    "email": "support@clarityhub.io",
+    "url": "https://github.com/clarityhub"
+  },
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/clarityhub/node-integration-example.git"
+  },
+  "scripts": {
+    "start": "export NODE_ENV=development; node ./src/index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "node-clarity-hub": "^0.1.0",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  }
+}
